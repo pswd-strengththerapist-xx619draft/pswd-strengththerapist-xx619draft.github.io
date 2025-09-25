@@ -1,0 +1,197 @@
+/* Custom stylesheet, add your own styles here */
+
+/* Zusammenarbeit Section */
+#zusammenarbeit .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#zusammenarbeit .box {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+#zusammenarbeit .box h4 {
+    margin-top: 0;
+}
+
+#zusammenarbeit .box .price {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+#zusammenarbeit .box .price-info {
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #777;
+}
+
+#zusammenarbeit .box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#zusammenarbeit .box ul li {
+    margin-bottom: 10px;
+}
+
+#zusammenarbeit .box ul li i {
+    color: #ab1f1d;
+    margin-right: 10px;
+}
+
+#zusammenarbeit h2 > i {
+    color: #ab1f1d;
+}
+
+/* Testimonial Slider */
+.testimonial-slider {
+    margin: 0 auto;
+    max-width: 900px; /* Wider */
+    padding: 0 20px;
+}
+
+.testimonial-slider blockquote {
+    font-size: 1.1em; /* Smaller text */
+    font-style: italic;
+    line-height: 1.6;
+    border-left: 5px solid #ab1f1d;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.testimonial-slider cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1em; /* Smaller text */
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #ab1f1d;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ab1f1d;
+}
+
+/* Force Slick Carousel arrows to be visible */
+/* Custom stylesheet, add your own styles here */
+
+/* Zusammenarbeit Section */
+#zusammenarbeit .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#zusammenarbeit .box {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+#zusammenarbeit .box h4 {
+    margin-top: 0;
+}
+
+#zusammenarbeit .box .price {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+#zusammenarbeit .box .price-info {
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #777;
+}
+
+#zusammenarbeit .box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#zusammenarbeit .box ul li {
+    margin-bottom: 10px;
+}
+
+#zusammenarbeit .box ul li i {
+    color: #ab1f1d;
+    margin-right: 10px;
+}
+
+#zusammenarbeit h2 > i {
+    color: #ab1f1d;
+}
+
+/* Testimonial Slider */
+.testimonial-slider {
+    margin: 0 auto;
+    max-width: 900px; /* Wider */
+    padding: 0 20px;
+}
+
+.testimonial-slider blockquote {
+    font-size: 1.1em; /* Smaller text */
+    font-style: italic;
+    line-height: 1.6;
+    border-left: 5px solid #ab1f1d;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.testimonial-slider cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1em; /* Smaller text */
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #ab1f1d;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ab1f1d;
+}
+
+/* Force Slick Carousel arrows to be visible */
+.slick-prev:before,
+.slick-next:before {
+    color: red !important; /* Make them red to be highly visible */
+    font-size: 30px !important; /* Make them larger */
+    opacity: 1 !important; /* Ensure full opacity */
+    z-index: 9999 !important; /* Bring them to the front */
+}
+
+.slick-prev,
+.slick-next {
+    display: block !important; /* Ensure they are displayed */
+    z-index: 9998 !important; /* Ensure the arrow containers are also in front */
+}

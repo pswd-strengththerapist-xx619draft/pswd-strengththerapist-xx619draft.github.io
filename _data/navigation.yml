@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Über Mich"
+    url: /#ueber-mich
+    blank: false
+  - title: "Zusammenarbeit"
+    url: /#zusammenarbeit
+    blank: false
+  - title: "Worte sprechen für sich"
+    url: /#worte-sprechen-fuer-sich
+    blank: false
+  - title: "Kontakt"
+    url: /#kontakt
+    blank: false
