@@ -40,15 +40,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/strength__therapist/"
-    - label: "TikTok"
-      icon: "fab fa-tiktok"
-      url: "http://tiktok.strengththerapist.de/"
     - label: "YouTube"
       icon: "fab fa-youtube"
       url: "https://www.youtube.com/channel/UCoqthpLQGpKwdzlXdKaW-RA"
     - label: "Spotify"
       icon: "fab fa-spotify"
-      url: "https://open.spotify.com/show/6QqqelA34HGw46kNJaRyoB?si=6af7a5916c174ba0&nd=1&dlsi=739dd1b9ba864fe6"
+      url: "https://open.spotify.com/show/431ChMvP8s8lvzAELMcyEj?si=LvcfaBZsQiaetmSqpNBqug"
   copyright: "Kevin Wiethoff" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "Per Starke Web Development"
@@ -96,7 +93,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "
+
+"
 incremental: false
 
 
@@ -150,3 +149,11 @@ defaults:
     values:
       layout: "page"
 
+
+
+# Analytics
+analytics:
+  provider: # false (default), "google", "google-universal", "google-tag-manager", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: # true, false (default)
